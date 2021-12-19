@@ -1,5 +1,4 @@
 import { performance } from 'perf_hooks';
-import { Utils } from '../../utils';
 
 // grid traveler problem
 // GOAL     - to traverse from S to E
@@ -58,6 +57,5 @@ function main() {
 	// getGridTravller(2, 3);
 	// getGridTravller(3, 3);
 	getGridTravller(18, 18);
-	Utils.calculateTime(() => getGridTravller(18, 18));
 }
 main();
