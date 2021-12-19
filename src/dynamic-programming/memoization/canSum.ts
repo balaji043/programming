@@ -6,6 +6,10 @@
 // no further   (4-4)=0     (3-3)=0     no further
 import { performance } from 'perf_hooks';
 
+
+// complexity m-target sum, n-length of array
+// brute force	- O(n^m) time and O(m) space
+// memoized 	- o(m*n) time and O(m) space
 const canSum = (
 	targetSum: number,
 	numbers: number[],
