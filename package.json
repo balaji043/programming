@@ -1,0 +1,13 @@
+{
+	"name": "dynamic-programmic",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.ts",
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"ts-node": "^10.4.0",
+		"typescript": "^4.5.4"
+	}
+}
