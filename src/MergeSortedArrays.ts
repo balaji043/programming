@@ -54,4 +54,4 @@ const mergeWithGap2 = (array1: number[], array2: number[]) => {
 	}
 };
 
-mergeWithGap([1, 5, 9, 10, 15, 20], [2, 3, 8, 13]);
+mergeWithGap2([1, 5, 9, 10, 15, 20], [2, 3, 8, 13]);
