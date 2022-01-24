@@ -5,37 +5,11 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "Traveller",
-			"type": "node",
+			"command": "npm start",
+			"name": "Run npm start",
 			"request": "launch",
-			"runtimeExecutable": "node",
-			"runtimeArgs": ["--nolazy", "-r", "ts-node/register/transpile-only"],
-			"args": ["src/dynamic-programming/memoization/traveler.ts"],
-			"cwd": "${workspaceRoot}",
-			"internalConsoleOptions": "openOnSessionStart",
-			"skipFiles": ["<node_internals>/**", "node_modules/**"]
-		},
-		{
-			"name": "FIB",
-			"type": "node",
-			"request": "launch",
-			"runtimeExecutable": "node",
-			"runtimeArgs": ["--nolazy", "-r", "ts-node/register/transpile-only"],
-			"args": ["src/dynamic-programming/memoization/fib.ts"],
-			"cwd": "${workspaceRoot}",
-			"internalConsoleOptions": "openOnSessionStart",
-			"skipFiles": ["<node_internals>/**", "node_modules/**"]
-		},
-		{
-			"name": "CanSum",
-			"type": "node",
-			"request": "launch",
-			"runtimeExecutable": "node",
-			"runtimeArgs": ["--nolazy", "-r", "ts-node/register/transpile-only"],
-			"args": ["src/dynamic-programming/memoization/canSum.ts"],
-			"cwd": "${workspaceRoot}",
-			"internalConsoleOptions": "openOnSessionStart",
-			"skipFiles": ["<node_internals>/**", "node_modules/**"]
+			"type": "node-terminal"
 		}
+		
 	]
 }

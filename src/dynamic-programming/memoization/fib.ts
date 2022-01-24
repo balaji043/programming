@@ -4,7 +4,7 @@
 // [1, 1, 2, 3, 5, 8, 13] -- fib numbers
 // f[i] = f[i-1] + f[i-2]
 
-namespace RecursiveFib {
+export namespace RecursiveFib {
 	// O(2^n)
 	export const fib = (n: number): number => {
 		if (n <= 2) return 1;
@@ -24,7 +24,7 @@ namespace RecursiveFib {
 	};
 }
 
-namespace MomoizedFib {
+export namespace MomoizedFib {
 	// O(2^n)
 	const fib = (n: number): number => {
 		const mfib = (n: number, memory: any = {}): number => {
@@ -45,7 +45,6 @@ namespace MomoizedFib {
 		getFib(50);
 	};
 }
-MomoizedFib.callExamples();
 
 //		 root
 // left 		right
